@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
+    cursor: pointer;
+}
+img{
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin: 5px;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+}
+p,h1{
+    padding-left: 10px;
+}
+
+.fa-search{
+    font-size: 32px; /* Adjust size as needed */
+    color: white;
+    margin-right: 10px;
+
+}
+.search{
+    background-color: black;
+    border: none;
+    cursor: pointer;
+}
+.content{
+    margin-top: 15px;
+    height: 82vh;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.fa{
+    padding: 20px;
+    font-size: 32px;
+    padding-right: 15px;
+}
+
+.fa-star{
+    color: palevioletred;
+}
+.fa-calendar-alt{
+    color:rgb(57, 216, 190);
+}
+.fa-user{
+    color: rgba(53, 138, 78, 0.815);
+}
+.fa-tasks{
+    color: rgb(115, 28, 115);
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.429);
+}
+.AddList{
+    margin: 10px;
+    padding: 5px;
+    font-size: 17px;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.AddGroup{
+    margin: 10px;
+    padding: 5px;
+    font-size: 17px;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.fa-plus{
+    padding-right: 20px;
+}
+.title{
+    font-size: 25px;
+    margin: 10px;
+}
+
+.fa-face-smile{
+    color: rgb(168, 103, 228);
+    padding: 10px;
+    font-size: 25px;
+}
+#title{
+    background: none;
+    color: white;
+    font-size: 21px;
+    border: black 1px solid;
+    
+    
+}
+.module{
+    background-color: gray;
+    width: 70%;
+    margin-left: 30px;
+    position: fixed;
+    z-index: 1000;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%);
+}
+.diside{
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+
+.cancel, .creat{
+    font-size: 20px;
+    color: white;
+    background: none;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.hide{
+    display: none;
+}
+.disabled {
+    pointer-events: none;  /* Disable pointer events */
+    color: grey;           /* Change the color to indicate the link is disabled */
+    text-decoration: none; /* Remove underline */
+}
+
+
+@media (max-width: 450px) {
+    /* Your CSS rules for screens smaller than 500px */
+  .content{
+    height: 77vh;
+    margin-top: 15px;
+
+  }
+  
+}
+  

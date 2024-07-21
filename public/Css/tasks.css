@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+    background: none;
+}
+
+.fa-solid {
+    font-size: 32px;
+    padding: 10px;
+    margin: 10px;
+    color: rgb(224, 61, 233);
+    background: none;
+    cursor: pointer;
+}
+
+h1 {
+    padding-left: 40px;
+    color: rgb(188, 88, 218);
+    background: none;
+}
+
+.fa-ellipsis-vertical {
+    background: none;
+}
+
+.btn1 {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(194, 77, 210);
+}
+
+.fa-lightbulb {
+    background: none;
+    padding-right: 10px;
+}
+
+.btn2 {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+    font-size: 32px;
+    background-color: rgb(198, 85, 221);
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.fa-plus {
+    background: none;
+}
+
+.bt {
+    position: relative;
+    background: none;
+    border: none;
+}
+
+.navbar {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: gray;
+    color: white;
+}
+
+.butt {
+    font-size: 25px;
+    text-align: start;
+    white-space: nowrap;
+    width: 100%;
+    background-color: gray;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.mode {
+    background-color: gray;
+    width: 70%;
+    margin-left: 30px;
+    position: fixed;
+    z-index: 1000;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    justify-content: space-between;
+}
+
+#txt {
+    height: 45px;
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 15px;
+    width: 150px;
+}
+
+.hide {
+    display: none;
+}
+
+.disabled {
+    pointer-events: none;
+    color: grey;
+    text-decoration: none;
+}
+
+.reduse {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.star {
+    display: flex;
+    justify-content: end;
+    font-size: 10px;
+    background: none;
+    border: none;
+}
+
+.newdiv {
+    background: rgb(69, 66, 66);
+    margin-inline: 10px;
+    margin-block: 5px;
+}
+
+.Paragraphe {
+    word-wrap: break-word;
+    word-break: break-word;
+}
+
+.fa-trash {
+    color: gray;
+}
+
+/* New CSS */
+.content-container {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.content {
+    flex-grow: 1;
+}
+
+.icon-container {
+    text-align: center;
+    margin-top: auto; /* Push to the bottom */
+}
+
+.icon-container i.fa-star {
+    font-size: 180px;
+    cursor: default;
+    color: gray;
+}
+
+.icon-container p {
+    font-size: 20px;
+    color: rgb(184, 65, 217);
+}
